@@ -1,0 +1,37 @@
+Instruções
+
+Os arquivos com as extensões:
+.ai -  Programa Adobe Illustrator,
+.eps (para programas Adobe Illustrator, CorelDraw e outros programas gráficos)
+.pdf (pode ser importado vetorialmente para Adobe Illustrator ou CorelDraw)
+Estes são arquivos vetoriais de alta resolução, sendo seu tamanho ajustável a necessidade de seu uso e utilizado por programas gráficos já citados.
+Arquivos em formato CMYK usado para impressos - devem ser enviados para a gráfica caso necessitem.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+O arquivo contendo no nome a descrição 10cm - é de uso para o computador, pode ser utilizado para arquivos que serão impressos (word, excel, powerpoint e programas do genero). 
+O arquivo está no padrão CMYK - para impressos.
+Sua pré-visualização (miniatura ou thumbnail) gerada pelo Windows, pode apresentar diferença de cor em relação ao original (por não suportar o padrão CMYK para impressos), sendo corrigido quando o mesmo arquivo é aberto em programas ou pelo visualizador.
+O mesmo pode acontecer em tablets e celulares.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+O arquivo contendo no nome a descrição 6cm - é de uso para o computador, pode ser utilizado para arquivos que serão somente visualizados por tela (como apresentações em powerpoint). 
+O arquivo está no padrão RGB - para visualização.
+Caso necessite de um outro tamanho, este tipo de arquivo pode ser gerado partindo dos arquivos vetoriais citados acima.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Os arquivos com a extensão em .png possuem em sua descrição o seu uso, como: para perfil do facebook na web e logo reduzido para assinatura de e-mail.
+NÃO DEVEM SER UTILIZADOS PARA IMPRESSOS 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Wallpapers são fundos de telas, no caso para o computador.
+NÃO DEVEM SER UTILIZADOS PARA IMPRESSOS.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IMPORTANTE:
+
+*ARQUIVOS EM CMYK PODEM APRESENTAR DIFERENÇAS DE CORES/TONS QUANDO VISUALIZADOS EM MONITORES, TABLETS E CELULARES.
+*POR FAVOR REALIZE O DOWNLOAD EM SEU COMPUTADOR, CERTOS CELULARES NÃO COMPORTAM ESTE TIPO DE ARQUIVO.
+
