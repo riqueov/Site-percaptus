@@ -1,115 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
 
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-	margin: 0 auto;
-	padding: 0;
 	background-image: url(background.jpg);
 	width: 100%;
-	box-sizing: border-box;
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 
 /*Imagem do topo da pagina*/
-#banner{
-	width: 200px;
-	height: 200px;
-	margin: -30px 20px;
 
+.home{
+	background: rgba(0, 0, 0, 0.6);
 }
+#home, .imagem-rodape{
+	width: 15%;
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+}
+
+header{
+	background-color: rgb(0,0,0, 0.5 );
+	position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+	z-index: 10;
+}
+
+
+
 /*menu até "a:hover*/
 
 
-.header{
-	background-color: rgb(0,0,0, 0.5 );
+.back-color{
+	background-color: black;
     position: -webkit-sticky; 
     position: sticky;
     top: 0;
-}
-.menu{
-	background-color: none;
-	margin: -5px 0 0;
-	text-align: center;
-}
-.menu ul li{
-	display: inline;
-	font-size: 17;
-	font-weight: lighter;
-}
-.menu ul li a{
-	text-decoration: none;
-	color: #ffffff;
-	display: inline-block;
-	padding: 20px 40px;
-	transition: .4s;
-}
-li a:hover{
-	background-color: #0a1418;
+	color: #E2E7E9;
 }
 
-ul li a:hover{
-	background-color: rgb(0,0,0, 0.5 );
-    position: -webkit-sticky; 
-    position: sticky;
+.bg-nav{ /*fundo do primeiro texto*/
+	background: rgba(0, 0, 0, 0.671);
+}
+
+.bg-btn{ /*fundo de transição*/
+	background:linear-gradient(to bottom, rgba(233, 200, 94, 0.480), rgba(233, 200, 94, 0.480),
+	 rgba(7, 162, 223, 0.480), rgba(99, 218, 170, 0.480));
+}
+
+.bg-tr{ /*fundo do primeiro texto*/
+	background: rgba(233, 200, 94, 0.616);
+}
+
+.bg-tr-gr1{ /*fundo de transição*/
+	background:linear-gradient(to bottom, rgba(233, 200, 94, 0.616), rgba(7, 162, 223, 0.4));
+}
+
+.bg-tr-gr{ /*fundo do segundo texto*/
+	background:linear-gradient(to bottom, rgba(7, 162, 223, 0.4), #000000);
+}
+
+.bg-tr-gr3{ /*fundo de transição*/
+	background:linear-gradient(to bottom, #000000, rgba(99, 218, 170, 0.582));
+}
+
+.bg-tr2{ /*fundo do form contato*/
+	background: rgba(99, 218, 170, 0.582);
+}
+
+.bg-tr-gr2{ /*fundo transicao rodape*/
+	background:linear-gradient(to bottom, rgba(99, 218, 170, 0.582), #000000);
+}
+
+.bg-rp{ /*fundo transicao rodape*/
+	background: #000000;
+}
+
+.p-p{
+	padding: 10px 10px;
+}
+
+.absolute{
+	position: absolute;
+}
+
+.relative{
+	position: relative;
 }
 
 
-/*TITULOS e TEXTOS DA PAGINA - GERAL*/
+/*BOTOES*/
 
-.titulo{
-	background: none;
-	text-align: center;
-	justify-content: left;
-	width: 100%;
-	letter-spacing: 0.9px;
-	font-weight: bold;
-	font-size: 22px;
-	padding-bottom: 15px;
-}
-
-
-.espaco-texto{
-	margin: 10px 30px;
-	padding-top: 1%;
-	font-size: 22px;
-	font-weight: 500;
-	line-height: 24px;
-	text-align: left;
-	background: none;
-}
-
-/*Primeira parte*/
-.grid1{
-	background: rgb(255, 255, 255, 0.6);
-	display: grid;
-	flex-wrap: wrap;
-	width: 100%;
-	margin: 0 auto;
-	padding: 5em 0;
-	grid-template-columns: 1fr 1fr;
-	gap: 1%;	
-}
-
-.img1{
-	width: 60%;
-}
 
 .clicar-venda, .clicar-vendab{
 	padding: 8px 0;
 	margin: 10px auto;
-	width: 30%;
+	width: 100%;
+	align-items: center;
 	font-weight: bolder;
 	font-size: 1em;
 	letter-spacing: 0.9px;
 	line-height: 1.5em;
-	padding: 12px auto;
-	margin: 5% auto;
-	width: 60%;
 	border: none;
 	border-radius: 8px;
 	transition: 0.5s;	
-	background: rgb(83, 141, 78);
+	background: rgb(223, 190, 4);
 	color: #f9faf9;
 }
 .clicar-venda:hover{
@@ -118,52 +120,17 @@ ul li a:hover{
 	color: #000;
 }
 
-.img2 {
-	justify-content: center;
-	width: 40%;
-	padding: 5% 0;
-	margin-bottom: 4%;
-}
-
-
-
-
-
-.grid2{
-	background:linear-gradient(to bottom, rgb(255, 255, 255, 0.6), #E2E7E9);
-	display: grid;
-	flex-wrap: wrap;
-	width: 100%;
-	margin: 0 auto;
-	padding: 5em 0;
-	grid-template-columns: 1fr 1fr;
-	gap: 1%;
-}
-
-.grid2b{
-	background-color: #E2E7E9;
-    width: 100%;
-	padding: 5em 0;
-}
 
 /*Formulario*/
 
 
-.grid3{
-	background-color: #E2E7E9;
-    width: 100%;
-	padding: 5em 0;
-}
-
-.espaco-form{
-	margin: 20px 0;
-}
-form label{
+form {
+	width: 100%;
+	padding: 20px;
     display: inline-block;
     font-size: 18px;
-    margin-bottom: 10px;
-	width: 25%;
-	text-align: LEFT;
+	justify-content: center;
+	text-align: center;
 }
 input{
 	display: inline-block;
@@ -176,18 +143,6 @@ input{
 
 a{
 	text-decoration: none;
-}
-
-label .titulo-obs{
-	display: flex;
-	padding-left: 70px;
-	margin-left: 20px;
-}
-
-.div-obs {
-	display: flex;
-	padding-top: 0.5%;
-	margin-left: 6%;
 }
 
 #mensagem{
@@ -225,7 +180,6 @@ footer{
     display: flex;
 	width: 100%;
     justify-content: center;
-	padding: 10% 0px;
 	background: #000000;
 	color: #ffffff;
 }
@@ -245,6 +199,10 @@ footer{
 
 .titulo-rodape{
 	text-align: center;
+}
+
+p{
+	margin: 0;
 }
 .txt-rodape, .click{
 	text-decoration: none;
@@ -274,16 +232,16 @@ footer{
 
 .direitos-rodape{
     background-color: #000000;
+	padding-bottom: 10px;
     text-align: center;
     color: #ffffff;
-    padding-bottom: 3%;
 }
-.imagem-rodape{
-	width: 20%;
-    background-color: #000000;
-    text-align: center;
-    color: #ffffff;
-    padding-bottom: 3%;
+.icone{
+	color: #37b33d;
+}
+
+.icone:hover{
+	color: white;
 }
 
 @media only screen and (max-width: 480px){
@@ -300,34 +258,17 @@ footer{
 		width: 100%;
 	}
 
-	.remove-mobile{
-		display: none;
-	}
 
-	.grid-img1b, .img1b, .clicar-vendab{
-		width: 100%;
-		display: block;
-		padding: 10% 0;
+	.img-top{
+		width: 80%;
+		height: 80%;
 	}
-	
-	.grid1, .grid2{
-		display: block;
-		text-align: center;
-	}
-
-		
-	.div-obs{
-		padding: auto;
-		margin: auto;
-	}
-
-
 
 		/*rodapé*/
 
 	.map{
-		width: 80%;
-		justify-content: center;
+		width: 55%;
+		margin-right: 30%;
 	}
 	.topicos{
 		display: block;
@@ -345,5 +286,10 @@ footer{
 		font-size: 12px;
 		letter-spacing: 0.3px;
 		line-height: 1.6em;
+	}
+
+	.click-logo{
+		left: 20%;
+		margin-left: 25%;
 	}
 }		
