@@ -64,8 +64,8 @@ hr {
 }
 
 .bg-btn{ /*fundo de transição*/
-	background:linear-gradient(to bottom, rgba(233, 200, 94, 0.480), rgba(233, 200, 94, 0.480),
-	 rgba(7, 162, 223, 0.480), rgba(99, 218, 170, 0.480));
+	background:linear-gradient(to bottom, rgba(196, 195, 195, 0.671), rgba(126, 126, 126, 0.48),
+	 rgba(126, 126, 126, 0.48));
 }
 
 .bg-azul{
@@ -118,6 +118,12 @@ hr {
 .relative{
 	position: relative;
 }
+
+.primeiro-conteudo{
+	padding-left: 10%;
+}
+
+
 
 
 /*BOTOES*/
@@ -282,6 +288,9 @@ p{
 		width: 100%;
 	}
 
+	.primeiro-conteudo{
+		padding-left: 0px;
+	}
 
 	.img-top{
 		width: 80%;
