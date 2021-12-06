@@ -16,9 +16,17 @@ body{
 /*Imagem do topo da pagina*/
 
 .home{
-	background: rgba(0, 0, 0, 0.6);
+	background: rgb(0,0,0, 0.5 );
 }
-#home, .imagem-rodape{
+
+#img-top {
+	width: 10%;
+	margin: -1% auto;
+	display: flex;
+	text-align: center;
+}
+
+.imagem-rodape{
 	width: 15%;
 	margin: 0 auto;
 	display: flex;
@@ -33,6 +41,11 @@ header{
 	z-index: 10;
 }
 
+hr {
+	border-radius: 50%;
+    padding-top: 1px;
+    background-color: #fff; /* Modern Browsers */
+}
 
 
 /*menu até "a:hover*/
@@ -55,20 +68,31 @@ header{
 	 rgba(7, 162, 223, 0.480), rgba(99, 218, 170, 0.480));
 }
 
-.bg-tr{ /*fundo do primeiro texto*/
-	background: rgba(233, 200, 94, 0.616);
+.bg-azul{
+	background: rgba(7, 162, 223, 0.4);
 }
 
-.bg-tr-gr1{ /*fundo de transição*/
-	background:linear-gradient(to bottom, rgba(233, 200, 94, 0.616), rgba(7, 162, 223, 0.4));
+.bg-amarelo{
+	background: rgba(233, 200, 94, 0.480);
+}
+
+.bg-preto{
+	background: rgba(0, 0, 0, 0.83);
+}
+.bg-tr{ /*fundo do primeiro texto*/
+	background:linear-gradient(to bottom, #000000, rgba(233, 200, 94, 0.480));
+}
+
+.bg-tr-venda{ /*fundo de transição*/
+	background:linear-gradient(to bottom, #000000, #000000,rgba(7, 162, 223, 0.4));
 }
 
 .bg-tr-gr{ /*fundo do segundo texto*/
-	background:linear-gradient(to bottom, rgba(7, 162, 223, 0.4), #000000);
+	background:linear-gradient(to bottom, rgba(233, 200, 94, 0.480), #000000);
 }
 
-.bg-tr-gr3{ /*fundo de transição*/
-	background:linear-gradient(to bottom, #000000, rgba(99, 218, 170, 0.582));
+.bg-tr-transicao2{ /*fundo de transição*/
+	background:linear-gradient(to bottom,rgba(7, 162, 223, 0.4), #000000);
 }
 
 .bg-tr2{ /*fundo do form contato*/
@@ -99,10 +123,10 @@ header{
 /*BOTOES*/
 
 
-.clicar-venda, .clicar-vendab{
+.clicar-venda{
 	padding: 8px 0;
 	margin: 10px auto;
-	width: 100%;
+	width: 90%;
 	align-items: center;
 	font-weight: bolder;
 	font-size: 1em;
@@ -111,7 +135,7 @@ header{
 	border: none;
 	border-radius: 8px;
 	transition: 0.5s;	
-	background: rgb(223, 190, 4);
+	background: rgb(199, 172, 19);
 	color: #f9faf9;
 }
 .clicar-venda:hover{
@@ -159,13 +183,13 @@ a{
 	border: none;
 	border-radius: 8px;
 	transition: 0.5s;	
-	background: #B39637;
+	background: rgb(199, 172, 19);
 	color: #f9faf9;
 }
 .enviar:hover{
 	cursor: pointer;	
-	background: #022835;
-	color: #f9faf9;
+	background: #f9faf9;
+	color: #000;
 }
 
 /*Rodape*/

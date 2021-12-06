@@ -18,9 +18,9 @@
 
 <body>
 
-<div class="home p-4">
+<div class="home p-4 bg-preto">
 
-	<img id="home" src="percaptus_escrita.png">
+	<img id="img-top" src="percaptus_p.png">
 </div>
 
 
@@ -59,21 +59,21 @@
 
 
 
-<div class="container-fluid">
+<div id="home" class="container-fluid">
 
-    <div class="row bg-black d-flex align-items-center bg-tr pt-5 pb-5">
+    <div class="row bg-black d-flex align-items-center bg-amarelo pt-5 pb-5">
         <div class="col-md-6 pl-4 pr-4 justify-content-center">
 
             <div class="row d-flex">
                 <div class="col-md-10 text-white mw-100 p-0 m-0">
-                    <h1 class="text-center pb-3 fs-2">ESTÁ PENSANDO EM VENDER SEU CONSÓRCIO?</h1>
-                    <h5 class="text-justify mt-4 w-100 mb-2">Consórcio é a modalidade de compra baseada na união de pessoas físicas ou jurídicas que consequentemente formam grupos, com a finalidade de formar poupança para a aquisição de bens móveis, imóveis ou serviços.
+                    <h1 class="text-center pb-3 fs-2 pl-5">ESTÁ PENSANDO EM VENDER SEU CONSÓRCIO?</h1>
+                    <h5 class="text-justify mt-4 w-100 mb-2 pl-5">Consórcio é a modalidade de compra baseada na união de pessoas físicas ou jurídicas que consequentemente formam grupos, com a finalidade de formar poupança para a aquisição de bens móveis, imóveis ou serviços.
 					</h5>
-					<h5 class="text-justify mt-4 w-100 mb-5">
+					<h5 class="text-justify mt-4 w-100 mb-5 pl-5">
 					Nesse sistema, o valor do bem ou serviço é diluído em um prazo predeterminado, e todos os integrantes do grupo contribuem ao longo desse período. Mensalmente (ou conforme estipulado em contrato), a administradora os contempla, por sorteio ou lance, com o crédito no valor do bem ou do serviço contratado, até que todos sejam atendidos.</h5>
              
 					<a href="#grid3">
-						<input type="submit" name="contato" value="Deseja vender? Clique aqui" class="clicar-venda" class="remove-mobile">
+						<input type="submit" name="contato" value="Deseja vender? Clique aqui" class="clicar-venda ml-5" class="remove-mobile">
 					</a>
 				</div>	
             </div>
@@ -88,8 +88,9 @@
 
 </div>
 
-<div class="p-5 bg-tr-gr1 w-100">
+<div class="p-5 bg-amarelo w-100">
 	<p></p>
+	<hr>
 </div>
 
 									<!-- Sobre a empresa -->
@@ -101,7 +102,7 @@
     <div class="row bg-black d-flex align-items-center bg-tr-gr pt-5 pb-5">
 		
 		<div class=" col-md-6 d-flex justify-content-center">
-			<img class="img-top" src="percaptus_p.png" alt="" width="500px" height="500px">
+			<img class="img-top" src="percaptus_logo_30x30cm.png" alt="" width="500px" height="500px">
 		</div>
         <div class="col-md-6 justify-content-center">
 
@@ -132,131 +133,138 @@
 
 </div>
 
-<div class="p-5 bg-tr-gr3 w-100">
-	<p></p>
+<div class="p-5 bg-preto w-100">
+	<p ></p>
+	<hr>
+	<p id="venda"></p>
 </div>
+
 
 						<!--Formulario para contato-->
 	
-	
-	
-	<div class="container-fluid bg-tr2"  id="venda">
-		<form bg-tr>
-			<h1 class="text-center text-white pb-1 fs-2" >CONTATO</h1>
-			<form class="espaco-form" action="h'ttps://docs.google.com/forms/u/0/d/e/1FAIpQLSeOy9mO41jaT78MYQOinBTFiJLfZCy2OIVo1fidIkMaPhNb_w/formResponse" method="post">
+
+<div class="row d-flex justify-content-center w-100 m-0">
+	<div class="container-fluid bg-tr-venda pt-3">
+		<div bg-tr>
+			<h1 class="text-center text-white fs-2" >CONTATO</h1>
+			
+			<script type="text/javascript">var submitted=false;</script>
+			<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+			onload="if(submitted) {window.location='agradecimentos.html';}"></iframe>
+			<form class="espaco-form" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSduHRmqjsCbQWDybihqdrXhAev9gc4dDuvIln96_nWtDGiglA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 			
 				<div class="form-row p-3">
 					<div class="form-group col-md-4">
 						<label class="fs-2 text-white p-2" for="nome">Nome Completo</label>
-						<input type="text" name="entry.15114134" 
-						placeholder="Nome Sobrenome" class="form-control" id="nome">
-					</div>
+						<input type="text" name="entry.2005620554"
+						placeholder="Nome Completo" class="form-control" id="nome">
+					  </div>
 
 					<div class="form-group col-md-3">
 					  <label class="fs-2 text-white p-2" for="email">Email</label>
-					  <input type="email" name="entry.202804127" 
+					  <input type="email" name="entry.1045781291" 
 					  placeholder="email@email.com" class="form-control" id="email">
 					</div>
 
 					<div class="form-group col-md-3">
 					  <label class="fs-2 text-white p-2" for="telefone">Telefone</label>
-					  <input type="tel" name="entry.202886065" 
+					  <input type="tel" name="entry.1166974658" 
 					  placeholder="XX XXXXX XXXX" class="form-control" id="telefone">
 					</div>
 
 					<div class="form-group col-md-2">
 						<label class="fs-2 text-white p-2" for="cep">CEP</label>
-						<input type="number" name="entry.1879512385"
+						<input type="text" name="entry.1448164893"
 						placeholder="XXXXX XXX" class="form-control" id="cep">
 					  </div>
 
 					  <div class="form-group col-md-5">
 						<label class="fs-2 text-white p-2" for="endereco">Endereço</label>
-						<input type="text" name="entry.748277541" 
+						<input type="text" name="entry.1065046570" 
 						placeholder="Endereço" class="form-control" id="endereco">
 					  </div>
 					  
 					  <div class="form-group col-md-1">
 						<label class="fs-2 text-white p-2" for="numero">Numero</label>
-						<input type="number" name="entry.1411646189" 
+						<input type="text" name="entry.110807541" 
 						placeholder="numero"class="form-control" id="numero">
 					  </div>
 
 					  <div class="form-group col-md-3">
 					    <label class="fs-2 text-white p-2" for="complemento">Complemento</label>
-					    <input type="text" name="entry.867895041" 
+					    <input type="text" name="entry.642614404" 
 						placeholder="Complemento" class="form-control" id="complemento">
 					  </div>
 					  
 					  <div class="form-group col-md-3">
 					    <label class="fs-2 text-white p-2" for="bairro">Bairro</label>
-					    <input type="text" name="entry.76213577"
+					    <input type="text" name="entry.1859263942"
 						placeholder="Bairro" class="form-control" id="bairro">
 					  </div>
 
 					  <div class="form-group col-md-3">
 					    <label class="fs-2 text-white p-2" for="cidade">Cidade</label>
-					    <input type="text" name="entry.129685984" 
+					    <input type="text" name="entry.1299722484" 
 						placeholder="Cidade" class="form-control" id="cidade">
 					  </div>
 					  
 					  <div class="form-group col-md-1">
 					    <label class="fs-2 text-white p-2" for="uf">UF</label>
-					    <input type="text" name="entry.1408780341" 
+					    <input type="text" name="entry.1697791428" 
 						placeholder="UF" class="form-control" id="uf">
 					  </div>
 
 					  <div class="form-group col-md-3">
 					    <label class="fs-2 text-white p-2" for="categoria">Categoria do Consórcio</label>
-					    <input type="text" name="entry.1491386200"
+					    <input type="text" name="entry.1272983788"
 						placeholder="Automóvel, Caminhão e etc." class="form-control" id="categoria">
 					  </div>
 					  
 					  <div class="form-group col-md-3">
 					    <label class="fs-2 text-white p-2" for="situacao">Situação do Consórcio</label>
-					    <input type="text" name="entry.32954483" 
+					    <input type="text" name="entry.691786023" 
 						placeholder="Situação do consórcio" class="form-control" id="situacao">
 					  </div>
 
 					  <div class="form-group col-md-2">
 					    <label class="fs-2 text-white p-2" for="cota">Cota</label>
-					    <input type="text" name="entry.246481692" 
+					    <input type="text" name="entry.145124599" 
 						placeholder="Cota" class="form-control" id="cota">
 					  </div>
 
 					  <div class="form-group col-md-2">
 					    <label class="fs-2 text-white pb-2 pt-3" for="administradora">Administradora do Consórcio</label>
-					    <input type="text" name="entry.1816487332" 
+					    <input type="text" name="entry.559658719" 
 						placeholder="Administradora" class="form-control" id="administradora">
 					  </div>
 
 					  <div class="form-group col-md-2">
 					    <label class="fs-2 text-white pb-4 pt-4" for="vCredito">Valor de Crédito</label>
-					    <input type="text" name="entry.1160734374" 
+					    <input type="text" name="entry.1416306652" 
 						placeholder="Valor em R$" class="form-control" id="vCredito">
 					  </div>
 					  
 					  <div class="form-group col-md-1">
 					    <label class="fs-2 text-white" for="parcelasPagas">Nº de parcelas pagas</label>
-					    <input type="text" name="entry.485578478" 
+					    <input type="text" name="entry.109200802" 
 						placeholder="Numero de Parcelas pagas" class="form-control" id="parcelasPagas">
 					  </div>
 
 					  <div class="form-group col-md-2">
 					    <label class="fs-2 text-white pb-4 pt-4" for="valorMensalidade">Valor da mensalidade</label>
-					    <input type="text" name="entry.61567749" 
+					    <input type="text" name="entry.109200802" 
 						placeholder="Valor em R$" class="form-control" id="valorMensalidade">
 					  </div>
 
 					  <div class="form-group col-md-1">
 					    <label class="fs-2 text-white pb-2 pt-3" for="atrasos">Possui atrasos?</label>
-					    <input type="text" name="entry.93917796" 
+					    <input type="text" name="entry.1974825611" 
 						placeholder="S / N" class="form-control" id="atrasos">
 					  </div>
 
 					  <div class="form-group col-md-2">
 					    <label class="fs-2 text-white pb-4 pt-4" for="saldoQuitar">Saldo em quitação</label>
-					    <input type="text" name="entry.2024191544" 
+					    <input type="text" name="entry.441866392" 
 						placeholder="Valor em R$" class="form-control" id="saldoQuitar">
 					  </div>
 
@@ -264,18 +272,18 @@
 
 					  <div class="form-group col-md-2">
 					    <label class="fs-2 text-white pb-4 pt-4" for="valorPretendido">Valor Pretendido</label>
-					    <input type="text" name="entry.1048398539" 
+					    <input type="text" name="entry.1157050776" 
 						placeholder="Valor em R$" class="form-control" id="valorPretendido">
 					  </div>
 
 					</div>		
 			
-				  <button type="submit" value="Enviar" class="enviar">Enviar</button>
-			
-		</form>
+				  <button type="submit" value="Enviar" class="enviar" target="_blank">Enviar</button>
+			</form>
+		</div>
 	</div>
-
-<div class="p-5 bg-tr-gr2 w-100">
+</div>
+<div class="p-5 bg-tr-transicao2 w-100">
 	<p></p>
 </div>
 
@@ -305,7 +313,7 @@
             </li>
         </ul>
         
-		<p><img class="imagem-rodape" src="percaptus_logo_30x30cm.png"></p>
+		<p><img class="imagem-rodape" src="percaptus_escrita.png"></p>
 		<p class="m-0 direitos-rodape">Todos os direitos reservados Percaptus &copy.</p>
 
 	</footer>
