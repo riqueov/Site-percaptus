@@ -1,0 +1,39 @@
+.clicar-venda{
+	padding: 8px 0;
+	width: 100%;
+	align-items: center;
+	font-weight: bolder;
+	font-size: 1em;
+	letter-spacing: 0.9px;
+	line-height: 1.5em;
+	border: none;
+	transition: 0.5s;	
+	background: rgba(233, 200, 94);
+	color: #000;
+}
+.clicar-venda:hover{
+	cursor: pointer;	
+	background: rgb(131, 131, 131);
+	color: white;
+}
+
+.clique{
+    color: #000;
+    transition: 0.5s;
+}
+.clique:hover{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 480px){
+    body{
+    width: 100%;
+    }
+
+    .img-top{
+        width: 90%;
+        height: 90%;
+
+    }
+}

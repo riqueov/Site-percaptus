@@ -88,24 +88,6 @@ a{
 
 
 
-.enviar{
-	
-	padding: 8px 0;
-	margin: 10px auto;
-	width: 30%;
-	border: none;
-	border-radius: 8px;
-	transition: 0.5s;	
-	background: rgb(199, 172, 19);
-	color: #f9faf9;
-}
-.enviar:hover{
-	cursor: pointer;	
-	background: #f9faf9;
-	color: #000;
-}
-
-
 @media only screen and (max-width: 480px){
 		.header, .div1, .div2, .div3, .div4, .img1, .footer, .lista-menu, .banner{
 		width: 100%;
@@ -120,9 +102,6 @@ a{
 		width: 100%;
 	}
 
-	.primeiro-conteudo{
-		padding-left: 0px;
-	}
 
 	.img-top{
 		width: 80%;
@@ -131,14 +110,7 @@ a{
 
 		/*rodapé*/
 
-	.map{
-		width: 55%;
-		margin-right: 30%;
-	}
-	.topicos{
-		display: block;
-		width: 100%;
-	}
+	
 	.titulo-rodape{
 		text-align: center;
 		padding: 0px ;

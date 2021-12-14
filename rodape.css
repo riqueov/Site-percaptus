@@ -89,3 +89,10 @@ p{
 	padding: 12px;
 	margin:0px 2px;
 }
+
+@media only screen and (max-width: 480px){
+    .imagem-rodape{
+		width: 70%;
+		padding-bottom: 3%;
+	}
+}

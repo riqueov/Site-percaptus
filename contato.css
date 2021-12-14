@@ -37,10 +37,17 @@ input{
 }
 
 @media screen and (max-width: 480px){
-    body{
+    body, form, main, div{
         width: 100%;
     }
+	.form-encapsulado{
+		width: 70%;
+	}
 	.container-tag{
-		width: 10%;
+		width: 30%;
+	}
+
+	form-group{
+		width: 30%;
 	}
 }
