@@ -1,20 +1,20 @@
 .clicar-venda{
-	padding: 8px 0;
-	width: 100%;
-	align-items: center;
-	font-weight: bolder;
-	font-size: 1em;
-	letter-spacing: 0.9px;
-	line-height: 1.5em;
-	border: none;
-	transition: 0.5s;	
-	background: rgba(233, 200, 94);
-	color: #000;
+    padding: 8px 0;
+    width: 100%;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1em;
+    letter-spacing: 0.9px;
+    line-height: 1.5em;
+    border: none;
+    transition: 0.5s;	
+    background: rgba(233, 200, 94);
+    color: #000;
 }
 .clicar-venda:hover{
-	cursor: pointer;	
-	background: rgb(131, 131, 131);
-	color: white;
+    cursor: pointer;	
+    background: rgb(131, 131, 131);
+    color: white;
 }
 
 .clique{
