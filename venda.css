@@ -6,20 +6,10 @@ html{
 }
 
 body{
-	background-image: url(background.jpg);
 	width: 100%;
 	text-align: center;
 	font-family: 'Josefin Sans', sans-serif;
 }
-
-
-/*Imagem do topo da pagina*/
-
-
-
-
-
-
 
 .back-color{
 	background-color: black;
