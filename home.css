@@ -1,12 +1,6 @@
-/* Introdução */
-
-
-.carousel-control-prev-icon{
-    width: 100px;
-    color: aqua;
-    background: #000;
+body{
+    background: white;
 }
-/* Porque somos os líderes do mercado */
 
 .titulo {
     text-align: center;
@@ -48,7 +42,7 @@ hr {
     cursor: pointer;
 }
 
-.clicar-venda-1{
+.clicar-venda{
     padding: 8px 0;
     margin: 10px;
     width: 100%;
@@ -63,31 +57,11 @@ hr {
     background: rgba(233, 200, 94);
     color: #000;
 }
-.clicar-venda-1:hover{
-    cursor: pointer;	
-    background: rgb(2, 53, 73);
-    color: white;
-}
 
-.clicar-venda-2{
-    padding: 8px 0;
-    margin: 10px auto;
-    width: 60%;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1em;
-    letter-spacing: 0.9px;
-    line-height: 1.5em;
-    border: none;
-    border-radius: 8px;
-    transition: 0.5s;	
-    background: rgba(233, 200, 94);
-    color: #000;
-}
-.clicar-venda-2:hover{
-    cursor: pointer;	
-    background: rgb(2, 53, 73);
-    color: white;
+.clicar-venda:hover{
+	cursor: pointer;	
+	background: rgb(2, 53, 73);
+	color: white;
 }
 
 /* Icones beneficios*/

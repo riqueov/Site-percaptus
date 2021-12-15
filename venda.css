@@ -1,26 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
-
-
-html{
-    scroll-behavior: smooth;
-}
-
 body{
-	width: 100%;
-	text-align: center;
-	font-family: 'Josefin Sans', sans-serif;
-}
-
-.back-color{
-	background-color: black;
-    position: -webkit-sticky; 
-    position: sticky;
-    top: 0;
-	color: #E2E7E9;
-}
-
-.primeiro-conteudo{
-	padding-left: 10%;
+    background: white;
 }
 
 /*BOTOES*/
