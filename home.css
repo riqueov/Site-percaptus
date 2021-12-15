@@ -42,8 +42,9 @@ hr {
     cursor: pointer;
 }
 
-
 .clicar-venda{
+    padding: 8px 0;
+    margin: 10px;
     width: 100%;
     align-items: center;
     font-weight: bolder;
@@ -62,6 +63,7 @@ hr {
 	background: rgb(2, 53, 73);
 	color: white;
 }
+
 /* Icones beneficios*/
 
 .bg-icones{
