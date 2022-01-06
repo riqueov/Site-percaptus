@@ -2,6 +2,14 @@ body{
     background: white;
 }
 
+.v1{
+	border-left: 2px solid rgb(206, 206, 206);
+  height: 100%;
+}
+
+.espaco-form{
+	display: flex;
+}
 /*BOTOES*/
 
 .clicar-venda{
@@ -66,9 +74,16 @@ a{
 		display: block;
 	}
 
+	.v1{
+		display: none;
+	}
 	.btn-menu{
 		display: block;
 		width: 100%;
+	}
+
+	.espaco-form{
+		display: block;
 	}
 
 
