@@ -19,9 +19,14 @@ input{
 	border-radius: 5px;
 }
 
+.imagem-contato{
+	margin: 38px 0;
+	padding: auto;
+	width: 330px;
+}
 .clicar-venda{
 	padding: 8px;
-	margin-top: 30px;
+	margin: 10px auto;
 	width: 30%;
 	align-items: center;
 	font-weight: bolder;
@@ -40,10 +45,19 @@ input{
 	color: white;
 }
 
+textarea{
+	max-width: 100%;
+}
+
 @media screen and (max-width: 480px){
     body, form, main, div{
         width: 100%;
     }
+
+	.imagem-contato{
+		width: 100%;
+	}
+
 	.form-encapsulado{
 		width: 70%;
 	}
