@@ -19,10 +19,12 @@ input{
 	border-radius: 5px;
 }
 
+
 .imagem-contato{
 	display: block;
 	margin: 30px auto;
 	width: 330px;
+	height: 70px;
 }
 .clicar-venda{
 	padding: 8px;
