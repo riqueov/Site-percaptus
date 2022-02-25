@@ -11,16 +11,18 @@ footer{
   justify-content: center;
 	background-color: #032b3a;
 	color: #ffffff;
+	margin: 0;
 }
 
 .div-img-rp{
 	margin: 0;
-	padding: 20px;
+	padding: 10px 0;
 	background-image: linear-gradient(#032b3a, #0a1418);
 }
 .topicos{
+	margin: 10px;
 	width: 100%;
-  padding: 10px;
+  padding-top: 10px;
   justify-content: center;
 }
 
@@ -40,8 +42,11 @@ p{
 	margin: 0;
 }
 .txt-rodape, .click{
+	margin: 0;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1em;
 	text-decoration: none;
-  font-size: smaller;
 	width: 100%;
 	text-align: center; 
   color: #ffffff;
@@ -63,6 +68,8 @@ p{
   background-color:#0a1418;
 	padding-bottom: 10px;
   text-align: center;
+	font-weight: 600;
+	font-size: 1em;
   color: #ffffff;
 }
 .icone{
